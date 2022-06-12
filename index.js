@@ -59,11 +59,6 @@ document.addEventListener('DOMContentLoaded', function(e){
         newBox.style.background = color_set
         newBox.innerHTML = `${title} ${subtitle}`
         container.appendChild(newBox)
-        // container.innerHTML+=`
-        // <div class='box ${color_set} ${title} ${subtitle} show'>
-        //     ${title} ${subtitle}
-        // </div>
-        // `
     })
 
     colorForm.addEventListener('submit', function(e){
@@ -82,13 +77,7 @@ document.addEventListener('DOMContentLoaded', function(e){
             &&  list[i].className.indexOf(subtitle) > -1) {
                 addClassShow(list[i],"show")
             }
-            // else if(list[i].className.indexOf(color_set) > -1 && list[i].className.indexOf(title) > -1 )
-            // { addClassShow(list[i],'show') }
-            // else if(list[i].className.indexOf(color_set) > -1){  addClassShow(list[i],'show') }
         }
-
-
-
     })
 
     function addClassShow(box, name){
