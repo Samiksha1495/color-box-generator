@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="split left">
+        <form id="color-form">
+            <h1>Color maker</h1>
+            <input type="radio" id="color_radio" data-action="radio_button">
+            <label for="color-radio">color-selector</label>
+            <br>
+            <br>
+            <label for="title">Title</label><br>
+            <input type="text" id="title">
+            <br>
+            <br>
+            <label for="subtitle">Subtitle</label><br>
+            <input type="text" id="subtitle">
+            <br>
+            <br>
+            <button>Submit</button>
+        </form>
+        <div class="container rectangle">
+        <div class="box show green title-1">
+            title-1
+        </div>
+        <div class="box show green title-2 subtitle-2">
+            title-2,
+            subtitle-2
+        </div>
+        <div class="box show red title-3 subtitle-2">
+            title-3,
+            subtitle-2</div>
+        <div class="box show blue title-1 subtitle-3">
+            title-1,
+            subtitle-3</div>
+        <div class="box show red title-1">
+            title-1
+        </div>
+        <div class="box show blue title-3">
+            title-3
+        </div>
+        <div class="box show green title-3 subtitle-2">
+            title-3,
+            subtitle-2</div>
+        <div class="box show red title-1">
+            title-1
+        </div>
+        </div>
+    </div>
+    
+    <div class="split right">
+        <div class="verticle"></div>
+        <form id="box_generate_form">
+            <h1>Color box generator</h1>
+            <input type="radio" id="radio_to_generate" data-action="radio_button">
+            <label for="radio_to_generate">color-selector</label>
+            <br>
+            <br>
+            <label for="title_to_generate">Title</label><br>
+            <input type="text" id="title_to_generate">
+            <br>
+            <br>
+            <label for="subtitle_to_generate">Subtitle</label><br>
+            <input type="text" id="subtitle_to_generate">
+            <br>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

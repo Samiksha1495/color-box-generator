@@ -1,0 +1,73 @@
+.body{
+    margin:25px;
+}
+.split{
+ 
+  width: 50%;
+  z-index: 1;
+  top: 0;
+  position:absolute;
+}
+
+.left{
+    left:0
+}
+
+.right{
+    right:0
+}
+#color-form, #box_generate_form{
+    border:2px solid black;
+    background-color:rebeccapurple;
+    padding: 10px;
+    margin:10px;
+}
+.left h1, .right h1{
+    text-align: center;
+}
+
+input[type='radio']{
+    width:20px;
+    height:20px;
+}
+
+/* psuedo element */
+.left form label:first-of-type{  
+    position: absolute;
+    margin-top: 5px;
+    /* margin-left:2px; */
+}
+
+.container{
+    margin-top:20px;
+}
+
+
+
+.box{
+    float: left;
+    width:150px;
+    height:100px;
+    line-height:100px;
+    display: none;
+    text-align: center;
+    margin: 2px;
+}
+.show{
+    display:block;
+}
+.rectangle .green{
+    background-color:green;
+}
+ .rectangle .red{
+    background-color:red;
+}
+ .rectangle .blue{
+    background-color:blue;
+}
+
+.verticle{
+    border-left: 3px solid black;
+    height: 500px;
+    float: left;
+}
